@@ -11,7 +11,7 @@ class Rkat < Formula
 
   resource "rkat-mini" do
     url "https://github.com/lukacf/meerkat/releases/download/v0.6.1/rkat-mini-0.6.1-aarch64-apple-darwin.tar.gz"
-    sha256 "4e1be3914f845302f59c72d2d4711234edcce821d07ce318b9f5ee4126695e14"
+    sha256 "325cbc5089c13d7121cb3b0ccbb1b72529b3eb87afe1ec11aefdcd288bf6e3e7"
   end
 
   resource "rkat-rpc" do
@@ -21,7 +21,7 @@ class Rkat < Formula
 
   resource "rkat-rpc-mini" do
     url "https://github.com/lukacf/meerkat/releases/download/v0.6.1/rkat-rpc-mini-0.6.1-aarch64-apple-darwin.tar.gz"
-    sha256 "8ab981de994643ed5380d1aa74ed2b065b14f448735cd972e952606d9ff4bf05"
+    sha256 "e06d3f4f042bc248907195dc23f02622458d1ad80207d7c19805c406165422c8"
   end
 
   resource "rkat-rest" do
@@ -42,7 +42,7 @@ class Rkat < Formula
 
   resource "rkat-mini" do
     url "https://github.com/lukacf/meerkat/releases/download/v0.6.1/rkat-mini-0.6.1-x86_64-apple-darwin.tar.gz"
-    sha256 "02b1441f3c617cf99db8ae394706c806e1d0d1bbab907e5e642ab4cf6b5478a5"
+    sha256 "7fc768dd929248f7d5931d238d940ec65f7e813dd4e0150f7a9b96b33bfb86af"
   end
 
   resource "rkat-rpc" do
@@ -52,7 +52,7 @@ class Rkat < Formula
 
   resource "rkat-rpc-mini" do
     url "https://github.com/lukacf/meerkat/releases/download/v0.6.1/rkat-rpc-mini-0.6.1-x86_64-apple-darwin.tar.gz"
-    sha256 "f5e942fc9e4e3f6d3ae8acdc20487d54d90425d8bf84001c1c911a8c46411b17"
+    sha256 "7a216e6af15eaeda65646293da4039b885c4b9b7617798d396928e37dfc2b581"
   end
 
   resource "rkat-rest" do
