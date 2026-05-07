@@ -75,7 +75,7 @@ class Rkat < Formula
 
   resource "rkat-mini" do
     url "https://github.com/lukacf/meerkat/releases/download/v0.6.1/rkat-mini-0.6.1-aarch64-unknown-linux-gnu.tar.gz"
-    sha256 "22b0cdeb79419b254631980d510ea1fb13716ac3ce83eaaa64a1cbdf8672d4e9"
+    sha256 "1de3b9f4b7fcb1aa7b7a349208c509255b1eb29d20c49a2f9bd80ae53612025f"
   end
 
   resource "rkat-rpc" do
@@ -85,7 +85,7 @@ class Rkat < Formula
 
   resource "rkat-rpc-mini" do
     url "https://github.com/lukacf/meerkat/releases/download/v0.6.1/rkat-rpc-mini-0.6.1-aarch64-unknown-linux-gnu.tar.gz"
-    sha256 "720c77bfaef09e0c43cb12062d7c284b215a78b946928fc5e98a33845a6c338b"
+    sha256 "64ed8b67f3a301ba303762250f4355d8371473ac57c38fcd888e9983ec517a67"
   end
 
   resource "rkat-rest" do
@@ -106,7 +106,7 @@ class Rkat < Formula
 
   resource "rkat-mini" do
     url "https://github.com/lukacf/meerkat/releases/download/v0.6.1/rkat-mini-0.6.1-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "35a81cbec8268148690ffdac41a7495424e3357eda82b95b512bf9cc74e61145"
+    sha256 "b3bc8e9f06600a3001dcfb891b4ffa9e7b1499c94c4b27feefe5f398f8dec7dc"
   end
 
   resource "rkat-rpc" do
@@ -116,7 +116,7 @@ class Rkat < Formula
 
   resource "rkat-rpc-mini" do
     url "https://github.com/lukacf/meerkat/releases/download/v0.6.1/rkat-rpc-mini-0.6.1-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "8823b9206ce2400569b1b351cd3f8aa922cd6fcabb037d55e0f3e577f66a6f5e"
+    sha256 "15a3aefaa40f8017cffa438be4174f16b439c6600ba0980ec6649e38ef0d948b"
   end
 
   resource "rkat-rest" do
