@@ -1,48 +1,48 @@
 class Rkat < Formula
   desc "Minimal, high-performance agent harness for LLM-powered applications"
   homepage "https://github.com/lukacf/meerkat"
-  version "0.8.32"
+  version "0.8.33"
   license "MIT"
 
   on_macos do
     on_arm do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-0.8.32-aarch64-apple-darwin.tar.gz"
-    sha256 "f1e5b9f5c82a42a955b2a5b5d44108ded10619dcc5e1fe13b14dc027fdef75aa"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-0.8.33-aarch64-apple-darwin.tar.gz"
+    sha256 "8339715a79a98e2fa07d2da783ac5cb2562177400e57fd881ae68777bcd95bd2"
 
   resource "rkat-rpc" do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-rpc-0.8.32-aarch64-apple-darwin.tar.gz"
-    sha256 "b8f06509e32729b53223aa650eda6bbf09dde00992c3a264e4fcad9d77e6ec9e"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-rpc-0.8.33-aarch64-apple-darwin.tar.gz"
+    sha256 "bb8b4cff8bfc6d221a9789791634e390c859fe12c61df650875efafc801f4ee8"
   end
 
   resource "rkat-rest" do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-rest-0.8.32-aarch64-apple-darwin.tar.gz"
-    sha256 "64e0b2e9c64702dd34f1c5dd197ddbd4df7fb14066c0a0c8bc049405e19befbc"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-rest-0.8.33-aarch64-apple-darwin.tar.gz"
+    sha256 "464b9c53f5d2b295b54465f76228d9c33221b27290a32f7f13e893393a85ac29"
   end
 
   resource "rkat-mcp" do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-mcp-0.8.32-aarch64-apple-darwin.tar.gz"
-    sha256 "0279dd40aa807eb0829985dc2ff0bcecbc11e5aaec838678aa181fb411de31fd"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-mcp-0.8.33-aarch64-apple-darwin.tar.gz"
+    sha256 "7919970ee312d1ae5f6b27bfd56548626a7ca28ceca4ea70e70b80d0c9642a3e"
   end
 
     end
 
     on_intel do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-0.8.32-x86_64-apple-darwin.tar.gz"
-    sha256 "5a1cc539d244dac2a1b10ed91709ada0b99389cd422f705780e8be0f0b13cd2d"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-0.8.33-x86_64-apple-darwin.tar.gz"
+    sha256 "1ac639987acfec3c6e763e47859ce5075b72af1bf774efde0c7ae6e831f99e0d"
 
   resource "rkat-rpc" do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-rpc-0.8.32-x86_64-apple-darwin.tar.gz"
-    sha256 "dc3e8972d89b34d9bb1e7b501660c186a25e5398fe05baee682f7bfeacb4e3a5"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-rpc-0.8.33-x86_64-apple-darwin.tar.gz"
+    sha256 "764e500c9ebd651572a2bc899f7aec57c52be71ea61a5739db6a77f38f9bc5db"
   end
 
   resource "rkat-rest" do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-rest-0.8.32-x86_64-apple-darwin.tar.gz"
-    sha256 "5ffe7d9098f5c6041438d554f1f6ca57d8118e5e581e53b0c2f6992302ff4ddd"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-rest-0.8.33-x86_64-apple-darwin.tar.gz"
+    sha256 "e4d0968279e678f071e279697b78e653f8deacfd261863ecbd7f7eebedc972b6"
   end
 
   resource "rkat-mcp" do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-mcp-0.8.32-x86_64-apple-darwin.tar.gz"
-    sha256 "14e8d4facb17c01019788c719618390f7f602207c2d7d4f2045fdd93aefc0c07"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-mcp-0.8.33-x86_64-apple-darwin.tar.gz"
+    sha256 "e5fb417ce497afe4e6e20e88d2d337eb3f113b769d46a3c32639cb0f2dfbaffd"
   end
 
     end
@@ -50,43 +50,43 @@ class Rkat < Formula
 
   on_linux do
     on_arm do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-0.8.32-aarch64-unknown-linux-gnu.tar.gz"
-    sha256 "1d2d04e3e6505e0cb69cc44a83e4abadb66db860d89a2b371feffc1290ecb6f8"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-0.8.33-aarch64-unknown-linux-gnu.tar.gz"
+    sha256 "19c25239bfb91122002d02d475cf202503121939d0b0f3ed5ad93a9f80a45006"
 
   resource "rkat-rpc" do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-rpc-0.8.32-aarch64-unknown-linux-gnu.tar.gz"
-    sha256 "cfa3062261aa1790964db3f765b0b507f60339ddb416292af5f05341b03c69f9"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-rpc-0.8.33-aarch64-unknown-linux-gnu.tar.gz"
+    sha256 "060ea40afef2929133f3481d49b6e2a7c979a064dca5b05b3b144df0eede2be6"
   end
 
   resource "rkat-rest" do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-rest-0.8.32-aarch64-unknown-linux-gnu.tar.gz"
-    sha256 "41fc733565809eef88b1701fb33752cd2f87576f02aaa3244baddccb986f7258"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-rest-0.8.33-aarch64-unknown-linux-gnu.tar.gz"
+    sha256 "1bca6bad9321c3d73f6116a7ce8937edc007664f1b007f76378267b4561a5c40"
   end
 
   resource "rkat-mcp" do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-mcp-0.8.32-aarch64-unknown-linux-gnu.tar.gz"
-    sha256 "d8af07e83e7aecc7c3be1c95bf6778a471ed474c243afaa84a39dfc53e6f5b73"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-mcp-0.8.33-aarch64-unknown-linux-gnu.tar.gz"
+    sha256 "6a660ba6be7bcd92c3b51646404bed93ee3debef6a4ee9273a200270e3da94ba"
   end
 
     end
 
     on_intel do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-0.8.32-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "7ff7834a94773931a3fce0a2fa6d7ad0af01a59b7233b3856a4119c621a0b183"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-0.8.33-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "8e8bba3f71ccb9071d3a7d5db9985515199757fafa741ca3b649423b0ec0fa81"
 
   resource "rkat-rpc" do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-rpc-0.8.32-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "db204cebba18b02bb351b019eb277f38c7d6d3aecebae5fab93195b74ed25c6c"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-rpc-0.8.33-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "39e8a32f20c3d29f95e8d5d1e3e49598efa05e5c08cd3cdc1e51783778e42885"
   end
 
   resource "rkat-rest" do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-rest-0.8.32-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "ee6042c310171e06b2b0a2a7f4271dd85468ba9fb90b962405e8e98e6cbebf94"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-rest-0.8.33-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "ae129dee6aad0c225821b14808fc42d1f45b079f0e40079d8689c7d4d909b4b9"
   end
 
   resource "rkat-mcp" do
-    url "https://github.com/lukacf/meerkat/releases/download/v0.8.32/rkat-mcp-0.8.32-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "1a8b1ae240ad4bd5ef1d432ca6f899846661beef23f9cea84c4f03bfa0faaff2"
+    url "https://github.com/lukacf/meerkat/releases/download/v0.8.33/rkat-mcp-0.8.33-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "3cf9c63df323afa8893a3157fdc800a208ca6191e9c42413f2ce9abd98018f3f"
   end
 
     end
